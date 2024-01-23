@@ -1,0 +1,61 @@
+/* VideoEntrance.css */
+.video1 {
+    background-color: grey;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive scaling */
+}
+
+.responsive-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.dash {
+    position: absolute;
+    right: 2%; /* Adjust this value to set the distance from the right edge using a percentage */
+    top: 2%;  /* Adjust this value to set the distance from the top edge using a percentage */
+    background-color: #2b2020;
+    opacity: 0.7;
+    color: #fff;
+    padding: 1.5em 2em; /* Adjust padding using em units for better responsiveness */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem; /* Adjust font size using rem units */
+    cursor: pointer;
+   
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+/* Responsive styling using media queries */
+@media screen and (max-width: 600px) {
+    .login-button {
+        padding: 1em 1.5em; /* Adjust padding for smaller screens */
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .login-button {
+        right: 2%; /* Adjust the right position for even smaller screens */
+        top: 2%;  /* Adjust the top position for even smaller screens */
+        padding: 0.8em 1.5em; /* Adjust padding for even smaller screens */
+        font-size: 0.8rem; /* Adjust font size for even smaller screens */
+    }
+}
+.login-button:hover {
+    background-color: #262829; /* Change background color on hover */
+    transform: translateY(-5px); /* Move the button up slightly on hover */
+}
