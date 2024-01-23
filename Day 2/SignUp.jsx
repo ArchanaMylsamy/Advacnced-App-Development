@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Login.css'; // Import your CSS file
+import './SignUp.css'; // Import your CSS file
 import google from '../assets/Google.jpeg';
 import facebook from '../assets/facebook.png';
 
