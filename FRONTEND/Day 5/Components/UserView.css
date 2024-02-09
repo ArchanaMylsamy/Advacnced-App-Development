@@ -1,0 +1,22 @@
+/* styles.css */
+.clas {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('background-image.jpg'); Replace 'background-image.jpg' with the path to your background image */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+
+        position: absolute;
+     
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-image: url(https://img.freepik.com/free-photo/sunset-aegean-sea-coast-ship-land-distance-water-greece_1268-16901.jpg?w=1380&t=st=1706291956~exp=1706292556~hmac=15db882d51e2e255f12567f6318fba70d14098d79377f35a2323fda5ce16b373); */
+        /* background-image:url(https://img.freepik.com/free-photo/blurred-background-abstract-nature-green-blurred-background-with-bokeh-spring-season-vintage-filtered-image_1253-1646.jpg?w=1060&t=st=1706248844~exp=1706249444~hmac=7573c15a652eaf41fc3bf749321bc43a0664984dd57d87a4cd5057d20a9f8492); */
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+  }
+ 
